@@ -5,7 +5,6 @@ import { buildURI, isURIValid, isNameValid, THUMBNAIL_STATUSES } from 'lbry-redu
 import Button from 'component/button';
 import ChannelSection from 'component/selectChannel';
 import classnames from 'classnames';
-import UnsupportedOnWeb from 'component/common/unsupported-on-web';
 import TagSelect from 'component/tagsSelect';
 import PublishText from 'component/publishText';
 import PublishPrice from 'component/publishPrice';
@@ -122,8 +121,6 @@ function PublishForm(props: Props) {
 
   return (
     <Fragment>
-      <UnsupportedOnWeb />
-
       <PublishFile />
       <div className={classnames({ 'card--disabled': formDisabled })}>
         <PublishText disabled={formDisabled} />

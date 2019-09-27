@@ -711,5 +711,8 @@
   "You have %credit_amount% in unclaimed rewards.": "You have %credit_amount% in unclaimed rewards.",
   "URI does not include name.": "URI does not include name.",
   "to fix it. If that doesn't work, press CMD/CTRL-R to reset to the homepage.": "to fix it. If that doesn't work, press CMD/CTRL-R to reset to the homepage.",
-  "Add Email": "Add Email"
+  "Add Email": "Add Email",
+  "Sign Out": "Sign Out",
+  "Follow more tags": "Follow more tags",
+  "If you bid more than %amount% LBC, when someone navigates to %uri%, it will load your published content. However, you can get a longer version of this URL for any bid.": "If you bid more than %amount% LBC, when someone navigates to %uri%, it will load your published content. However, you can get a longer version of this URL for any bid."
 }
